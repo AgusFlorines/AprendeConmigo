@@ -1,0 +1,226 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #f2156a;
+    
+    font-weight: 550;
+    font-style: normal;
+    font-size: 70px;
+    padding-bottom: 50px;
+    
+}
+
+h2 {
+    color: #f2156a;
+    font-weight: 600;
+    font-style: normal;
+    margin: 3%;
+}
+
+h3 {
+margin-bottom: 30px;
+    color: #3a3737;
+}
+
+h4{
+    color: #f2156a;
+    margin: 5px;
+}
+
+h5{
+    margin: 5px;
+
+}
+
+nav {
+    background-color: pink;
+
+}
+
+#barra {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a {
+    color: #3a3737;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: white;
+}
+
+#inicioIMG {
+    padding-right: 600px;
+    width: 175%;
+}
+
+#inicio {
+    background-color: pink;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 180px;
+}
+
+button {
+
+    background-color: #f2156a;
+    color: white;
+    padding: 1rem 3rem;
+    border-color: white;
+    border-radius: 0.5rem;
+    margin: 5px;
+    font-size: 20px;
+
+}
+
+button:hover{
+
+    background-color: #03a23a;
+
+    
+}
+
+#cursos2{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+   margin: 5%;
+   height: 400px;
+}
+
+.tarjetacurso2{
+
+text-align: center;
+/*-- border: 0.5px #3a3737 solid;
+margin: 0.5%;--*/
+padding: 0.5%;
+padding-top: 30px;
+}
+
+.imgcurso2{
+    width: 50%;
+}
+
+.regreso{
+
+    background-color: #006280;
+    color: white;
+    padding: 1rem 3rem;
+    border-color: white;
+    border-radius: 0.5rem;
+  
+    font-size: 18px;
+}
+
+#volver :hover{
+
+    background-color: #f2156a;
+}
+
+#volvere :hover{
+
+    background-color: #f2156a;
+}
+
+#volver{
+
+    margin: 5%;
+}
+
+
+
+footer {
+
+    background-color: pink;
+    padding: 2%;
+    text-align: center;
+    color: #3a3737;
+}
+
+/*-- Form --*/
+
+form {
+    margin: 2.5%;
+   margin-left: 8%;
+   
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#mapa{
+
+    margin: 2.5%;
+}
+
+input {
+    padding: 5px;
+  width: 550px;
+  height: 60px;
+  border: 1px solid #c5c3c39f;
+}
+
+input:focus {
+    background-color: #006280;
+    color: white;
+}
+
+textarea {
+    padding: 5px;
+    width: 550px;
+  height: 60px;
+    border: 1px solid #c5c3c3;
+}
+
+textarea:focus {
+    background-color: #006280;
+    color: white;
+}
+
+#Enviar{
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color: #03a23a;
+    border-radius: 8px;
+
+}
+
+#Enviar:focus{
+
+    background-color: #006280;
+    color: white;
+}
+
+#Limpiar {
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: orange;
+    border-radius: 8px;
+
+}
+
+#Limpiar:focus{
+
+    background-color: #006280;
+    color: white;
+
+}
+
