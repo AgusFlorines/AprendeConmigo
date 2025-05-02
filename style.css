@@ -38,7 +38,7 @@ h5{
 }
 
 nav {
-    background-color: pink;
+    background-color: #f2156a;
 
 }
 
@@ -50,13 +50,13 @@ nav {
 }
 
 a {
-    color: #3a3737;
+    color: white;
     text-decoration: none;
 
 }
 
 a:hover {
-    color: white;
+    color: #3a3737;
 }
 
 #inicioIMG {
@@ -65,7 +65,6 @@ a:hover {
 }
 
 #inicio {
-    background-color: pink;
     position: relative;
     display: flex;
     justify-content: center;
@@ -92,6 +91,13 @@ button:hover{
     
 }
 
+#cursos{
+
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+
 #cursos2{
 
     position: relative;
@@ -111,12 +117,13 @@ padding-top: 30px;
 }
 
 .imgcurso2{
-    width: 50%;
+    width: 300px;
+    height: 250px;
 }
 
 .regreso{
 
-    background-color: #006280;
+    background-color: #f2156a;
     color: white;
     padding: 1rem 3rem;
     border-color: white;
@@ -125,29 +132,12 @@ padding-top: 30px;
     font-size: 18px;
 }
 
-#volver :hover{
-
-    background-color: #f2156a;
-}
-
-#volvere :hover{
-
-    background-color: #f2156a;
-}
-
-#volver{
-
-    margin: 5%;
-}
-
-
-
 footer {
 
-    background-color: pink;
+    background-color: #f2156a;
     padding: 2%;
     text-align: center;
-    color: #3a3737;
+    color: white;
 }
 
 /*-- Form --*/
@@ -176,21 +166,11 @@ input {
   border: 1px solid #c5c3c39f;
 }
 
-input:focus {
-    background-color: #006280;
-    color: white;
-}
-
 textarea {
     padding: 5px;
     width: 550px;
   height: 60px;
     border: 1px solid #c5c3c3;
-}
-
-textarea:focus {
-    background-color: #006280;
-    color: white;
 }
 
 #Enviar{

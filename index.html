@@ -13,11 +13,11 @@
 <!-- BARRA DE NAVEGACION -->
 <nav>
   <div>
-    <div id="barra"><img src="./IMG/logo.png" alt="Logo" width="10%"></a>
+    <div id="barra"><img src="./IMG/logo2.png" alt="Logo" width="10%"></a>
       <a href="index.html"><b>INICIO</b></a>
-      <a href="tienda.html"><b>CURSOS</b></a>
+      <a href="#cursos2"><b>CURSOS</b></a>
       <a href=""><b>SOBRE MI</b></a>
-      <a href="contacto.html"><b>CONTACTO</b></a>
+      <a href="#consulta"><b>CONTACTO</b></a>
     </div>
   </div>
 </nav>
@@ -33,7 +33,7 @@
         </div>
         <h3>Descubre nuestra colección de adorables amigurumis y aprende a tejer con nuestros cursos online</h3>
         <br>
-        <div id="volvere"> <a class="regreso" href="tienda.html">Ver Cursos</a></div>
+        <button>Ver Cursos</button>
       </div>
       <div><img src="./IMG/amigus.png" id="inicioIMG" alt=""></div>
 
@@ -42,11 +42,77 @@
 
   <!-- FIN INICIO -->
 
+ <h2 id="cursos">Nuestros cursos</h2>
+  
+ <section>
+  
+  <div id="cursos2">
+    
+    <div class="tarjetacurso2">
+      <img src="./IMG/basico.jpg" alt="" class="imgcurso2">
+      <h4>Teje desde cero</h4>
+      <h5>Aprende puntos básicos y técnicas esenciales</h5>
+      <button>Comprar</button>
+    </div>
 
+    <div class="tarjetacurso2">
+      <img src="./IMG/ositos.png" alt="" class="imgcurso2">
+      <h4>Amigurumis</h4>
+      <h5>Crea adorables muñecos paso a paso</h5>
+      <button>Comprar</button>
+    </div>
+
+    <div class="tarjetacurso2">
+      <img src="./IMG/mantas.jpg" alt="" class="imgcurso2">
+      <h4>Mantas</h4>
+      <h5>Teje mantas cálidas para el hogar</h5>
+      <button>Comprar</button>
+    </div>
+
+    <div class="tarjetacurso2">
+      <img src="./IMG/bolso.jpg" alt="" class="imgcurso2">
+      <h4>Accesorios</h4>
+      <h5>Haz gorros, bufandas, bolsos y más</h5>
+      <button>Comprar</button>
+    </div>
+  </div></section>
+
+
+
+<!-- FIN CURSOS -->
 
   <!-- SOBRE MI -->
   <!-- FIN SOBRE MI -->
 
+  <!-- CONTACTO - FORMULARIO -->
+  <section>
+    <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26249.601695318048!2d-58.476446149999994!3d-34.6748961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9495154d385%3A0x86babb4a76e51dd2!2sVilla%20Lugano%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1693000864089!5m2!1ses-419!2sar"
+          width="30%" height="440px" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+    
+    <form action="https://formspree.io/f/xdkgnydz" method="POST" >
+    <h2 id="consulta">Envianos tu consulta:</h2>     
+    <label>Nombre y apellido:</label>
+    <br><br>
+    <input type="text" name="Name" id="name" placeholder="Indique su nombre y apellido" required>
+    <br><br>
+    <label>Correo electrónico:</label>
+    <br><br>
+    <input type="email" name="Email" id="email" placeholder="Indique su correo electrónico" required>
+    <br><br>
+    <label>Consulta:</label>
+    <br><br>
+    <textarea name="Consulta" id="consulta" rows="3" placeholder="Indique aquí el motivo de su consulta"></textarea>
+    <br><br>
+    <input type="submit" value="Enviar" id="Enviar">  
+    <input type="reset" value="Limpiar" id="Limpiar">           
+    </form>
+    </section>
+     <!-- FIN CONTACTO - FORMULARIO -->
+    
+
+    
 <!--Footer--->
 <footer>
   <p> &copy; 2025 Todos los derechos reservados - Realizado por Agus Florines</p>
