@@ -7,39 +7,34 @@
 
 h1 {
     color: #f2156a;
-    
     font-weight: 550;
     font-style: normal;
     font-size: 70px;
     padding-bottom: 50px;
-    
 }
 
 h2 {
     color: #f2156a;
-    font-weight: 600;
-    font-style: normal;
-    margin: 3%;
+    font-size: 2rem;
 }
 
 h3 {
-margin-bottom: 30px;
+    margin-bottom: 30px;
     color: #3a3737;
 }
 
-h4{
+h4 {
     color: #f2156a;
     margin: 5px;
 }
 
-h5{
+h5 {
     margin: 5px;
-
 }
 
+/*-- NAV--*/
 nav {
     background-color: #f2156a;
-
 }
 
 #barra {
@@ -52,13 +47,15 @@ nav {
 a {
     color: white;
     text-decoration: none;
-
 }
 
 a:hover {
     color: #3a3737;
 }
 
+/*-- FIN NAV --*/
+
+/*-- INICIO --*/
 #inicioIMG {
     padding-right: 600px;
     width: 175%;
@@ -73,7 +70,6 @@ a:hover {
 }
 
 button {
-
     background-color: #f2156a;
     color: white;
     padding: 1rem 3rem;
@@ -81,109 +77,82 @@ button {
     border-radius: 0.5rem;
     margin: 5px;
     font-size: 20px;
-
 }
 
-button:hover{
-
+button:hover {
     background-color: #03a23a;
-
-    
 }
 
-#cursos{
+/*-- FIN INICIO --*/
 
-    margin-left: 15%;
-    margin-top: 10%;
+/*-- CURSOS --*/
+#cursos {
+    margin-left: 5%;
+    margin-top: 4%;
 }
 
-
-#cursos2{
-
+#cursos2 {
     position: relative;
     display: flex;
     justify-content: center;
-   margin: 5%;
-   height: 400px;
+    margin: 6%;
+    flex-wrap: wrap;
 }
 
-.tarjetacurso2{
-
-text-align: center;
-/*-- border: 0.5px #3a3737 solid;
-margin: 0.5%;--*/
-padding: 0.5%;
-padding-top: 30px;
+.tarjetacurso2 {
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    margin: 2.5%;
+    padding: 0.5%;
+    padding-top: 30px;
 }
 
-.imgcurso2{
-    width: 300px;
+.imgcurso2 {
+    width: 350px;
     height: 250px;
 }
 
-.regreso{
+/*-- FIN CURSOS --*/
 
-    background-color: #f2156a;
-    color: white;
-    padding: 1rem 3rem;
-    border-color: white;
-    border-radius: 0.5rem;
-  
-    font-size: 18px;
-}
-
-footer {
-
-    background-color: #f2156a;
-    padding: 2%;
-    text-align: center;
-    color: white;
-}
-
-/*-- Form --*/
-
+/*-- FORMULARIO --*/
 form {
     margin: 2.5%;
-   margin-left: 8%;
-   
+    margin-left: 8%;
 }
 
-section{
+section {
     position: relative;
     display: flex;
     justify-content: center;
 }
 
-#mapa{
-
+#mapa {
     margin: 2.5%;
 }
 
 input {
     padding: 5px;
-  width: 550px;
-  height: 60px;
-  border: 1px solid #c5c3c39f;
+    width: 550px;
+    height: 60px;
+    border: 1px solid #c5c3c39f;
 }
 
 textarea {
     padding: 5px;
     width: 550px;
-  height: 60px;
+    height: 60px;
     border: 1px solid #c5c3c3;
 }
 
-#Enviar{
+#Enviar {
     width: 250px;
     height: 40px;
     color: white;
     background-color: #03a23a;
     border-radius: 8px;
-
 }
 
-#Enviar:focus{
-
+#Enviar:focus {
     background-color: #006280;
     color: white;
 }
@@ -194,13 +163,29 @@ textarea {
     color: white;
     background-color: orange;
     border-radius: 8px;
-
 }
 
-#Limpiar:focus{
-
+#Limpiar:focus {
     background-color: #006280;
     color: white;
-
 }
 
+/*-- FIN FORMULARIO --*/
+
+/*-- FOOTER Y BOTON WSP --*/
+footer {
+    background-color: #f2156a;
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+
+.botonwsp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 60px;
+}
+
+/*-- FIN FOOTER --*/
