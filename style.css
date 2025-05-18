@@ -10,7 +10,8 @@ h1 {
     font-weight: 550;
     font-style: normal;
     font-size: 70px;
-    padding-bottom: 50px;
+    margin-top: 6%;
+    margin-bottom: 1rem;
 }
 
 h2 {
@@ -19,7 +20,7 @@ h2 {
 }
 
 h3 {
-    margin-bottom: 30px;
+    font-size: 1.3rem;
     color: #4b4444;
 }
 
@@ -33,16 +34,18 @@ h5 {
 }
 
 /*-- NAV--*/
-nav {
-    background-color: #f2156a;
-
+#logo {
+    max-width: 10rem;
+    margin-left: 50px;
+    margin-right: 350px;
 }
 
-#barra {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+header {
+    background-color: #f2156a;
+}
+
+li{
+    margin-left: 90px;
 }
 
 a {
@@ -57,17 +60,18 @@ a:hover {
 /*-- FIN NAV --*/
 
 /*-- INICIO --*/
+
 #inicioIMG {
-    padding-right: 600px;
-    width: 175%;
+    width: 60%;
 }
 
-#inicio {
-    position: relative;
+.inicio {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 180px;
+}
+
+.titulo {
+    margin-top: 1rem;
+    width: 500px;
 }
 
 button {
@@ -75,8 +79,8 @@ button {
     color: white;
     padding: 1rem 3rem;
     border-color: white;
-    border-radius: 0.5rem;
-    margin: 5px;
+    border-radius: 3rem;
+    margin: 1rem;
     font-size: 20px;
 }
 
@@ -121,7 +125,7 @@ form {
     margin-left: 8%;
 }
 
-section {
+.formulario {
     position: relative;
     display: flex;
     justify-content: center;
@@ -133,14 +137,14 @@ section {
 
 input {
     padding: 5px;
-    width: 550px;
+    width: 450px;
     height: 60px;
     border: 1px solid #c5c3c39f;
 }
 
 textarea {
     padding: 5px;
-    width: 550px;
+    width: 450px;
     height: 60px;
     border: 1px solid #c5c3c3;
 }
@@ -176,7 +180,7 @@ textarea {
 /*-- FOOTER Y BOTON WSP --*/
 footer {
     background-color: #f2156a;
-    padding: 2%;
+    padding: 1rem;
     text-align: center;
     color: white;
 }
@@ -197,61 +201,184 @@ footer {
     z-index: 100;
 }
 
-.botonwsp:hover{
-
+.botonwsp:hover {
     text-decoration: none;
     color: #03a23a;
     background: white;
 }
 
-#imgwsp{
-position: fixed;
-   bottom: 55px;
+#imgwsp {
+    position: fixed;
+    bottom: 55px;
     right: 82px;
 }
 
-.imgfooter{
-    width: 50px;
-    height: 50px;
+.imgfooter {
+    width: 3%;
+    height: 3%;
 }
 
-.imgfooter:hover{
-    width: 60px;
-    height: 60px;
-
-}
-
-/*-- FIN FOOTER --*/
+/*-- FIN FOOTER Y BOTON WSP --*/
 
 /*-- SOBRE MI --*/
 
-#fotopersonal{
-
- width: 200px;
-    height: 250px;
-
-margin: 60px;
-margin-top: 120px;
-}
-
-#seccion1{
-
-width: 800px;
-    height: 800px;
-margin-left: 12%;
-}
-
-.imggrid{
+#fotopersonal {
     width: 200px;
     height: 250px;
-    margin:0.2%;
+    margin: 60px;
 }
 
-.imgperfil{
+#seccion1 {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 700px;
+margin-left: 15%;
+}
+
+.imggrid {
+    width: 200px;
+    height: 250px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    margin: 2.5%;
+    padding: 0.5%;
+    padding-top: 30px;
+}
+
+.imgperfil {
     flex-wrap: wrap;
-    margin: 10%;
+    margin: 7%;
 }
-
-
 
 /*-- FIN SOBRE MI --*/
+
+@media (max-width: 600px) {
+
+    #logo {
+   display:none;
+}
+
+h1 {
+    font-weight: 550;
+    font-size: 30px;
+    margin-top: 4%;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin: 3%;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+/*-- INICIO --*/
+
+#inicioIMG {
+    width: 70%;
+    margin-left: 20%;
+}
+
+.titulo {
+    margin-top: 0.3rem;
+}
+
+button {
+    font-size: 0.8rem;
+    width: auto;
+    padding: 0.5rem;
+    margin: 0.01rem;
+}
+
+.inicio {
+   flex-direction: column;   
+}
+
+/*-- FIN INICIO --*/
+
+/*-- FOOTER Y BOTON WSP --*/
+
+footer {
+    padding: 1rem;
+    font-size: 0.75rem;
+    margin-top: 30%;
+}
+
+.imgfooter {
+    width: 5%;
+    height: 5%;
+}
+
+/*-- FIN FOOTER Y BOTON WSP --*/
+
+/*-- SOBRE MI --*/
+
+#fotopersonal {
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+}
+
+#seccion1 {
+    flex-direction: column;
+    width: 400px;
+    margin: 9%;
+}
+
+.imggrid {
+    width: 150px;
+    height: 200px;
+    margin: 0.5%;
+    padding: 0.1%;
+    padding-top: 10px;
+}
+
+.imgperfil {
+    margin: 4%;
+}
+
+/*-- FIN SOBRE MI --*/
+
+/*-- FORMULARIO --*/
+
+form {
+    margin: 7%;
+}
+
+.formulario {
+    flex-direction: column;
+}
+
+#mapa {
+    margin: 7%;
+    width: 500px;
+    height: 200px;
+}
+
+input {
+    width: 450px;
+    height: 40px;
+}
+
+textarea {
+    width: 450px;
+    height: 80px;
+}
+
+#Enviar {
+    width: 150px;
+}
+
+#Enviar:focus {
+    background-color: #006280;
+    color: white;
+}
+
+#Limpiar {
+    width: 100px;
+}
+
+/*-- FIN FORMULARIO --*/
+}
