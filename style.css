@@ -281,8 +281,7 @@ h1 {
     font-weight: 550;
     font-size: 30px;
     margin: 4%;
-      width: 450px;
-    flex-wrap: wrap;
+    width: 300px;
 }
 
 h2 {
@@ -322,8 +321,8 @@ button {
     margin-left: 4%;
     font-size: 15px;
     position: absolute;
-    top: 650px;
-    left: 200px;
+    top: 600px;
+    left: 150px;
 }
 
 .inicio {
