@@ -88,6 +88,17 @@ button:hover {
     background-color: #03a23a;
 }
 
+.btninicio{
+    background-color: #f2156a;
+    color: white;
+    padding: 1rem 3rem;
+    border-color: white;
+    border-radius: 3rem;
+    margin: 1rem;
+    font-size: 20px;
+    
+}
+
 /*-- FIN INICIO --*/
 
 /*-- CURSOS --*/
@@ -262,7 +273,7 @@ margin: 6%;
     #logo {
    position: absolute;
    top: 0px;
-   left: 180px;
+   left: 200px;
    width: 6rem;
 }
 
@@ -299,10 +310,20 @@ h3 {
 }
 
 button {
-    font-size: 0.8rem;
-    padding: 0.5rem;
-    margin: 0.01rem;
-    margin-left: 10px;
+    font-size: auto;
+    padding: 0.5rem 2rem;
+    margin: 1%;
+    font-size: 15px;
+}
+
+.btninicio{
+    font-size: 20px;
+    padding: 0.5rem 2rem;
+    margin-left: 4%;
+    font-size: 15px;
+    position: absolute;
+    top: 650px;
+    left: 200px;
 }
 
 .inicio {
