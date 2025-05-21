@@ -349,9 +349,7 @@ footer {
 }
 
 #imgwsp {
-    position: fixed;
-    bottom: 350px;
-    right: 110px;
+    display: none;
 }
 
 
