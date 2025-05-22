@@ -11,8 +11,12 @@ h1 {
     font-style: normal;
     font-size: 70px;
     margin-top: 6%;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;  
+   font-family: "Noto Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-variation-settings: "wdth" 100;
 }
+
 
 h2 {
     color: #f2156a;
@@ -232,39 +236,64 @@ footer {
 
 /*-- FIN FOOTER Y BOTON WSP --*/
 
-/*-- SOBRE MI --*/
+/*-- CONOCENOS --*/
 
 #fotopersonal {
-    width: 200px;
-    height: 250px;
-    margin: 60px;
+    margin: 3%;
+    width: 30%;
 }
 
 #seccion1 {
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 5%;
+margin: 3%;
 }
 
 #texto{
-    width: 300px;
+    width: auto;
 }
 
 .imggrid {
     width: 200px;
     height: 250px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.502);
     margin: 2.5%;
     padding: 0.5%;
-    padding-top: 30px;
+    padding-top: 30px;   
 }
 
 .imgperfil {
     flex-wrap: wrap;
-    margin: 7%;
+    margin: 5%;
 }
 
+.grilla{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px; 
+    place-content: center;
+    gap: 30px;
+     margin: 6%;
+}
+
+.item{
+display: flex;
+flex-direction: column;
+place-items: center;
+text-align: center;
+box-shadow: 1px 3px 10px #f2156a;
+margin: 2.5%;
+padding: 0.5%;
+border-radius: 30px;
+}
+
+.caras{
+
+    width: 100px;
+    margin: 2%;
+    border-radius: 60px;
+}
 /*-- FIN SOBRE MI --*/
 
 @media (max-width: 600px) {
@@ -359,7 +388,7 @@ footer {
 
 /*-- FIN FOOTER Y BOTON WSP --*/
 
-/*-- SOBRE MI --*/
+/*-- CONOCENOS --*/
 
 #fotopersonal {
     width: 100px;
@@ -386,7 +415,19 @@ footer {
     margin: 4%;
 }
 
-/*-- FIN SOBRE MI --*/
+.grilla{
+display: flex;
+flex-direction: column;
+margin-left: 200px;
+width: 200px;
+}
+
+.caras{
+    margin: 3%;
+    width: 70px;
+}
+
+/*-- FIN CONOCENOS --*/
 
 /*-- FORMULARIO --*/
 
