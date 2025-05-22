@@ -100,7 +100,6 @@ button:hover {
     border-radius: 3rem;
     margin: 1rem;
     font-size: 20px;
-    
 }
 
 /*-- FIN INICIO --*/
@@ -244,10 +243,10 @@ footer {
 }
 
 #seccion1 {
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
 }
 
 #texto{
@@ -278,14 +277,14 @@ margin: 3%;
 }
 
 .item{
-display: flex;
-flex-direction: column;
-place-items: center;
-text-align: center;
-box-shadow: 1px 3px 10px #f2156a;
-margin: 2.5%;
-padding: 0.5%;
-border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+    box-shadow: 1px 3px 10px #f2156a;
+    margin: 2.5%;
+p   adding: 0.5%;
+    border-radius: 30px;
 }
 
 .caras{
@@ -417,13 +416,17 @@ footer {
 .grilla{
 display: flex;
 flex-direction: column;
-margin-left: 200px;
+margin-left: 150px;
 width: 200px;
 }
 
 .caras{
     margin: 3%;
     width: 70px;
+}
+
+#texto{
+    width: 200px;
 }
 
 /*-- FIN CONOCENOS --*/
