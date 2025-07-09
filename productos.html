@@ -49,54 +49,55 @@
 
   <!-- CURSOS -->
   <h2 id="cursos">Adquiere nuestros cursos</h2>
+
   <section>
     <div id="cursos2">
       <div class="tarjetacurso2">
         <img src="./IMG/basico.jpg" alt="Puntos básicos" class="imgcurso2">
         <h4>Teje desde cero</h4>
         <p>Puntos básicos y técnicas esenciales</p>
-        <br>
-        <button>Comprar</button>
+        <h4><b>$2.000</b></h4>
+        <button class="comprar" data-id="1" data-nombre="Teje desde cero" data-precio="2000">Comprar</button>
       </div>
 
       <div class="tarjetacurso2">
         <img src="./IMG/ositos.png" alt="osito tejido" class="imgcurso2">
         <h4>Amigurumis</h4>
         <p>Crea adorables muñecos paso a paso</p>
-        <br>
-        <button>Comprar</button>
+         <h4><b>$2.500</b></h4>
+      <button class="comprar" data-id="2" data-nombre="Amigurumis" data-precio="2500">Comprar</button>
       </div>
 
       <div class="tarjetacurso2">
         <img src="./IMG/mantas.jpg" alt="mantas tejidas" class="imgcurso2">
         <h4>Mantas</h4>
         <p>Teje mantas cálidas para el hogar</p>
-        <br>
-        <button>Comprar</button>
+         <h4><b>$3.000</b></h4>
+        <button class="comprar" data-id="3" data-nombre="Mantas" data-precio="3000">Comprar</button>
       </div>
 
       <div class="tarjetacurso2">
         <img src="./IMG/bebejpg.jpg" alt="bolso tejido" class="imgcurso2">
         <h4>Ropa de bebé</h4>
         <p>Haz enterizos, gorros, escarpines</p>
-        <br>
-        <button>Comprar</button>
+         <h4><b>$3.500</b></h4>
+        <button class="comprar" data-id="4" data-nombre="Ropa de bebé" data-precio="3500">Comprar</button>
       </div>
 
       <div class="tarjetacurso2">
         <img src="./IMG/gorros.jpg" alt="bolso tejido" class="imgcurso2">
         <h4>Accesorios</h4>
         <p>Haz gorros, bufandas y más</p>
-        <br>
-        <button>Comprar</button>
+         <h4><b>$4.000</b></h4>
+        <button class="comprar" data-id="5" data-nombre="Accesorios" data-precio="4000">Comprar</button>
       </div>
 
       <div class="tarjetacurso2">
         <img src="./IMG/bolso.jpg" alt="bolso tejido" class="imgcurso2">
         <h4>Bolsos y carteras</h4>
         <p>Haz bolsos, carteras, portacelulares y más</p>
-        <br>
-        <button>Comprar</button>
+         <h4><b>$4.500</b></h4>
+        <button class="comprar" data-id="6" data-nombre="Bolsos y carteras" data-precio="4500">Comprar</button>
       </div>
 
     </div>
@@ -104,6 +105,19 @@
 
   </section>
   <!-- FIN CURSOS -->
+
+<!-- CARRITO -->
+<div class="container">
+  <div id="carrito">
+    <h2>Carrito de Compras</h2>
+    <p>Total: $<span id="total-carrito">0</span></p>
+    <ul id="lista-carrito"></ul>
+</div>
+
+<button id="btnPagar">Pagar</button>
+<button id="vaciar-carrito">Vaciar Carrito</button>
+</div>
+<!-- FIN CARRITO -->
 
   <!-- Boton Whatsapp -->
   <a href="index.html" class="botonwsp">
@@ -128,7 +142,7 @@
   </footer>
   <!--FIN FOOTER--->
 
-
+  <script src="./js/tienda.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 
