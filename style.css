@@ -17,7 +17,6 @@ h1 {
    font-variation-settings: "wdth" 100;
 }
 
-
 h2 {
     color: #f2156a;
     font-size: 2rem;
@@ -60,11 +59,9 @@ a {
 a:hover {
     color: #3a3737;
 }
-
 /*-- FIN NAV --*/
 
 /*-- INICIO --*/
-
 #inicioIMG {
     width: 60%;
 }
@@ -101,7 +98,6 @@ button:hover {
     margin: 1rem;
     font-size: 20px;
 }
-
 /*-- FIN INICIO --*/
 
 /*-- CURSOS --*/
@@ -130,7 +126,6 @@ button:hover {
     width: 350px;
     height: 250px;
 }
-
 /*-- FIN CURSOS --*/
 
 /*-- FORMULARIO --*/
@@ -188,7 +183,6 @@ textarea {
     background-color: #006280;
     color: white;
 }
-
 /*-- FIN FORMULARIO --*/
 
 /*-- FOOTER Y BOTON WSP --*/
@@ -232,11 +226,9 @@ footer {
     height: 3%;
     color: white;
 }
-
 /*-- FIN FOOTER Y BOTON WSP --*/
 
 /*-- CONOCENOS --*/
-
 #fotopersonal {
     margin: 3%;
     width: 30%;
@@ -273,7 +265,7 @@ footer {
     grid-template-rows: 300px 300px 300px; 
     place-content: center;
     gap: 30px;
-     margin: 6%;
+    margin: 6%;
 }
 
 .item{
@@ -292,7 +284,18 @@ footer {
     margin: 2%;
     border-radius: 60px;
 }
-/*-- FIN SOBRE MI --*/
+/*-- FIN CONOCENOS --*/
+
+/*-- RESEÑAS --*/
+.resenia{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+    margin: 2.5%;
+    padding: 0.5%;
+}
+/*-- FIN RESEÑAS --*/
 
 /*-- CARRITO COMPRAS --*/
 #carrito{
@@ -301,14 +304,11 @@ footer {
     place-items: center;
     text-align: center;
 }
-
-
-
 /*-- FIN CARRITO COMPRAS --*/
 
 @media (max-width: 600px) {
 
-    #logo {
+#logo {
    position: absolute;
    top: 0px;
    left: 200px;
@@ -332,11 +332,9 @@ h3 {
     width: 300px;
     flex-wrap: wrap;
     margin: 4%;
-
 }
 
 /*-- INICIO --*/
-
 #inicioIMG {
     width: 70%;
     margin-left: 15%;
@@ -366,11 +364,9 @@ button {
 .inicio {
    flex-direction: column;   
 }
-
 /*-- FIN INICIO --*/
 
 /*-- FOOTER Y BOTON WSP --*/
-
 footer {
     padding: 1rem;
     font-size: 0.75rem;
@@ -391,15 +387,12 @@ footer {
     display: none;
 }
 
-
 .botonwsp:hover {
     background: none;
 }
-
 /*-- FIN FOOTER Y BOTON WSP --*/
 
 /*-- CONOCENOS --*/
-
 #fotopersonal {
     width: 100px;
     height: 150px;
@@ -440,11 +433,9 @@ width: 200px;
 #texto{
     width: 200px;
 }
-
 /*-- FIN CONOCENOS --*/
 
 /*-- FORMULARIO --*/
-
 form {
     margin: 7%;
 }
@@ -482,5 +473,4 @@ textarea {
     width: 100px;
 }
 }
-
 /*-- FIN FORMULARIO --*/
