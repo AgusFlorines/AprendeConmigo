@@ -299,11 +299,17 @@ footer {
 
 /*-- CARRITO COMPRAS --*/
 #carrito{
- display: flex;
-    flex-direction: column;
-    place-items: center;
-    text-align: center;
+    margin: 2%;
+    padding: 1%;
 }
+
+.divisionarea{
+    height: 30px;
+    background-color: #f2156a;
+    margin: 3%;
+
+}
+
 /*-- FIN CARRITO COMPRAS --*/
 
 @media (max-width: 600px) {
